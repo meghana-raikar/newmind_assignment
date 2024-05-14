@@ -1,0 +1,210 @@
+.sidebar-container {
+  position: relative;
+  width: 74px;
+  height: 768px;
+  background: #252b2b;
+  box-shadow: 5px 0px 6px #55555546;
+  opacity: 1;
+}
+
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 44px;
+  height: 44px;
+  opacity: 1;
+}
+
+.logoname {
+  position: absolute;
+  top: 63px;
+  left: 18px;
+  width: 38px;
+  height: 13px;
+  text-align: center;
+  font: normal normal 600 11px/16px Mecellem;
+  letter-spacing: 0.49px;
+  color: #ffffff;
+  opacity: 1;
+}
+/* COMMON CSS */
+.box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
+}
+
+.img {
+  opacity: 1;
+  margin-top: 8px;
+}
+
+.name {
+  letter-spacing: -0.33px;
+  color: #ffffff;
+  opacity: 1;
+  margin-top: 3px;
+}
+
+/* DASHBOARD */
+
+.dashboard {
+  top: 95px;
+  left: 0px;
+  width: 74px;
+  height: 50px;
+}
+
+.dashboardimg {
+  top: 102px;
+  left: 26px;
+  width: 24px;
+  height: 20px;
+}
+
+.dashboardname {
+  top: 126px;
+  left: 13px;
+  width: 50px;
+  height: 12px;
+  text-align: left;
+  font: normal normal 600 10px/14px Mecellem;
+  opacity: 0.3;
+}
+
+/* COLLECTIONS*/
+
+.collection {
+  top: 150px;
+  left: 0px;
+  width: 74px;
+  height: 50px;
+}
+
+.collectionimg {
+  top: 155px;
+  left: 28px;
+  width: 23px;
+  height: 23px;
+}
+
+.collectionname {
+  top: 182px;
+  left: 14px;
+  width: 50px;
+  height: 12px;
+  text-align: center;
+  font: normal normal 600 10px/12px Mecellem;
+}
+
+/* TEMPLATES */
+
+.template {
+  top: 205px;
+  left: 0px;
+  width: 74px;
+  height: 50px;
+}
+
+.templateimg {
+  top: 209px;
+  left: 28px;
+  width: 18px;
+  height: 23px;
+}
+
+.templatename {
+  top: 236px;
+  left: 14px;
+  width: 46px;
+  height: 12px;
+  text-align: left;
+  font: normal normal 600 10px/14px Mecellem;
+}
+
+/* WORKS */
+
+.work {
+  top: 260px;
+  left: 0px;
+  width: 74px;
+  height: 50px;
+}
+
+.workimg {
+  top: 270px;
+  left: 26px;
+  width: 22px;
+  height: 60px;
+  border-radius: 2px 2px 4px 4px;
+}
+
+.workname {
+  top: 291px;
+  left: 23px;
+  width: 29px;
+  height: 12px;
+  text-align: left;
+  font: normal normal 600 10px/14px Mecellem;
+}
+
+/* REPORTS */
+
+.report {
+  top: 315px;
+  left: 0px;
+  width: 74px;
+  height: 50px;
+}
+
+.reportimg {
+  top: 320px;
+  left: 28px;
+  width: 18px;
+  height: 23px;
+}
+
+.reportname {
+  top: 347px;
+  left: 20px;
+  width: 34px;
+  height: 12px;
+  text-align: center;
+  font: normal normal 600 10px/14px Mecellem;
+}
+
+/* ADMIN PANEL */
+
+.admin {
+  top: 370px;
+  left: 0px;
+  width: 74px;
+  height: 57px;
+}
+
+.adminimg {
+  top: 377px;
+  left: 27px;
+  width: 22px;
+  height: 18px;
+}
+
+.adminname {
+  top: 400px;
+  left: 22px;
+  width: 30px;
+  height: 24px;
+  text-align: center;
+  font: normal normal 600 10px/12px Mecellem;
+}
+
+.profile {
+  top: 696px;
+  left: 16px;
+  width: 43px;
+  height: 43px;
+  opacity: 1;
+}

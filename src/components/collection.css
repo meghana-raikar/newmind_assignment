@@ -1,0 +1,61 @@
+.collection-container {
+  position: absolute;
+  top: 0px;
+  left: 74px;
+  width: 250px;
+  height: 768px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 5px 0px 8px #252f3b14;
+  opacity: 1;
+  border: 1px solid #adff2f;
+}
+
+.collection-heading {
+  top: 20px;
+  left: 74px;
+  width: 250px;
+  height: 40px;
+  background: #e9eff84d 0% 0% no-repeat padding-box;
+}
+
+.heading {
+  padding-top: 15px;
+  padding-left: 12px;
+  font: normal normal bold 16px/8px Mecellem;
+  letter-spacing: 0px;
+  color: #171d24;
+  opacity: 1;
+}
+
+.firm-collection {
+    margin-top: 20px;
+  top: 95px;
+  left: 94px;
+  width: 230px;
+  height: 40px;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+
+}
+
+.arrowbox {
+    top: 87px;
+left: 279px;
+width: 33px;
+height: 33px;
+border: 2px dashed #FF0000;
+opacity: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.downarrow {
+  top: 102px;
+  left: 293px;
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
