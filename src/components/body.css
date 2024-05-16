@@ -1,0 +1,6 @@
+.body-container{
+    width: calc(100% - 74px);
+    border: 1px solid rgb(0, 238, 255);
+    margin-left: 250px;
+    background: #F5F7F8 ;
+}

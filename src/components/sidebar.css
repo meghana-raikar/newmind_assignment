@@ -208,3 +208,7 @@
   height: 43px;
   opacity: 1;
 }
+
+.selected {
+  border-left: 4px solid #FFAF2E;
+}

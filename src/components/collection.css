@@ -7,55 +7,78 @@
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 5px 0px 8px #252f3b14;
   opacity: 1;
-  border: 1px solid #adff2f;
 }
 
 .collection-heading {
+  margin-top: 30px;
   top: 20px;
   left: 74px;
-  width: 250px;
+  width: 248px;
   height: 40px;
-  background: #e9eff84d 0% 0% no-repeat padding-box;
+  background: #e9eff852 0% 0% no-repeat padding-box;
+  border: 1px solid #e9eff852;
 }
 
 .heading {
-  padding-top: 15px;
-  padding-left: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 144px;
+  top: 30px;
+  left: 94px;
+  width: 86px;
+  height: 20px;
+  text-align: left;
   font: normal normal bold 16px/8px Mecellem;
   letter-spacing: 0px;
   color: #171d24;
   opacity: 1;
 }
-
-.firm-collection {
-    margin-top: 20px;
-  top: 95px;
-  left: 94px;
-  width: 230px;
-  height: 40px;
-  opacity: 1;
+.accordion-title {
+  margin-top: 20px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 15px;
-
+  margin-left: 10px;
 }
 
-.arrowbox {
-    top: 87px;
-left: 279px;
-width: 33px;
-height: 33px;
-border: 2px dashed #FF0000;
-opacity: 1;
-display: flex;
-justify-content: center;
-align-items: center;
+.accordion-text {
+  width: 1000px;
+  margin-right: 50px;
+  text-align: left;
+  font: normal normal bold 15px/8px Mecellem;
+  letter-spacing: 0px;
+  color: #0d1324;
+  opacity: 1;
 }
-.downarrow {
-  top: 102px;
-  left: 293px;
-  width: 10px;
-  height: 10px;
+.arrow {
+  margin-right: 10px;
+}
+.templatelist {
+  margin-top: 5px;
+  margin-left: -30px;
+  display: flex;
+  width: 230px;
+  height: 35px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+}
+.templatelist.active {
+  background-color: #FFAF2E 
+}
+
+.templatelist p {
+  text-align: left;
+  font: normal normal normal 13px/8px Mecellem;
+  letter-spacing: 0px;
+  color: #182027;
+  opacity: 1;
+}
+
+.collection-img {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
   opacity: 1;
 }
