@@ -45,7 +45,7 @@ const Accordionbody = () => {
         <tr>
           <th></th>
           <th></th>
-          <th>Key</th>
+         
           <th>ID</th>
           <th>Template Name</th>
           <th>Model Type</th>
@@ -79,7 +79,7 @@ const Accordionbody = () => {
                   }} // Prevent row click propagation
                 />
               </td>
-              <td>{row.key}</td>
+            
               <td>{row.id}</td>
               <td>{row.template_name}</td>
               <td>{row.model_type}</td>

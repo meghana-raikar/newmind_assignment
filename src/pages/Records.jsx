@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "./record.css";
 import Accordionbody from "./Accordionbody";
+import Filter from "./Filter";
 
 const Records = () => {
+  // State to manage the visibility of the Filter component
+  const [isFilterVisible, setIsFilterVisible] = useState(false);
+
+  // Function to toggle the visibility of the Filter component
+  const toggleFilter = () => {
+    setIsFilterVisible(!isFilterVisible);
+  };
+
   return (
     <div className="records-container">
       <div className="top-section">
@@ -14,8 +23,9 @@ const Records = () => {
             className="searchbar"
             placeholder="Write something about the template you want to find"
           />
+          {isFilterVisible && <Filter />}
           <span className="filter">
-            <img src="/images/filter.svg" alt="" />
+            <img src="/images/filter.svg" alt="" onClick={toggleFilter} />
           </span>
         </div>
         <div className="record-found">
