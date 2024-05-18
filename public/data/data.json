@@ -40,34 +40,6 @@
     "template_name": "Akaryaklt istasyonu Kira Sözlesmesi",
     "model_type": "Share Purchase Contract",
     "updateDate": "02/25/2022 | 12:30"
-  },
-  {
-    "key": 7,
-    "id": "RRM0007",
-    "template_name": "Akaryaklt istasyonu Kira Sözlesmesi",
-    "model_type": "Share Purchase Contract",
-    "updateDate": "02/25/2022 | 12:30"
-  },
-
-  {
-    "key": 8,
-    "id": "RRM0008",
-    "template_name": "Akaryaklt istasyonu Kira Sözlesmesi",
-    "model_type": "Share Purchase Contract",
-    "updateDate": "02/25/2022 | 12:30"
-  },
-  {
-    "key": 9,
-    "id": "RRM0005",
-    "template_name": "Akaryaklt istasyonu Kira Sözlesmesi",
-    "model_type": "Share Purchase Contract",
-    "updateDate": "02/25/2022 | 12:30"
-  },
-  {
-    "key": 10,
-    "id": "RRM0005",
-    "template_name": "Akaryaklt istasyonu Kira Sözlesmesi",
-    "model_type": "Share Purchase Contract",
-    "updateDate": "02/25/2022 | 12:30"
   }
+  
 ]

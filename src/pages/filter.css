@@ -7,8 +7,9 @@
   box-shadow: 0px 20px 32px #00010229;
   border-radius: 5px;
   opacity: 1;
-  border: 2px solid rgb(5, 197, 5);
+  /* border: 2px solid rgb(5, 197, 5); */
   z-index: 1;
+  position: relative;
 }
 
 .filter-title {
@@ -16,7 +17,15 @@
   justify-content: space-between;
   height: 50px;
   /* border: 1px solid blue; */
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
   border-bottom: 1px solid rgba(128, 128, 128, 0.221);
+}
+
+.filter-title-wrap span {
+  display: flex;
 }
 
 .filter-title span {
@@ -54,17 +63,198 @@
 .filter-close {
   width: 20px;
   height: 20px;
-  margin-top: 15px;
+  margin-top: 5px;
   margin-right: 10px;
   width: 12px;
   height: 12px;
   opacity: 1;
 }
 
-.filter-close img{
-    top: 33px;
-left: 610px;
-width: 12px;
-height: 12px;
-opacity: 1;
+.filter-close img {
+  top: 33px;
+  left: 610px;
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+}
+
+/* filter top bar end */
+
+/* dropdowns container */
+
+.dropdowns {
+  /* border: 1px solid black; */
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* id and template name container */
+.filter-select-container {
+  padding-left: 10px;
+  /* border: 1px dashed orange; */
+  display: flex;
+  gap: 15px;
+  height: 55px;
+}
+.id-filter {
+  position: relative;
+}
+.input-group {
+  position: relative;
+}
+
+.choosediv {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 190px;
+  margin-right: 12px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  margin-top: 5px;
+  padding: 10px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.dropdown-arrow {
+  margin-left: -25px;
+}
+.dropdown-menu label:last-child {
+  margin-bottom: 0;
+}
+
+/* model type container */
+.model-type-container {
+  /* border: 1px dashed rgb(0, 208, 255); */
+  height: 55px;
+  padding-left: 10px;
+}
+
+.model-type-container input {
+  width: 91%;
+}
+
+.theme-and-usage {
+  display: flex;
+  gap: 15px;
+  height: 60px;
+  /* border: 1px dashed rgb(197, 9, 214); */
+  background: #f5f7f8a9 0% 0% no-repeat padding-box;
+
+  padding-left: 10px;
+}
+
+/* Remove the default focus border */
+input.choosediv:focus {
+  outline: none;
+}
+
+.clear-filter-btn {
+  top: 335px;
+  left: 92px;
+  width: 115px;
+  height: 35px;
+  background: #eff2f5 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.cancel-btn {
+  top: 335px;
+  left: 382px;
+  width: 110px;
+  height: 35px;
+  border: 1px solid #ebedf0;
+  background: white;
+  border-radius: 5px;
+  opacity: 1;
+  margin-left: 90px;
+}
+
+.apply-btn {
+
+  width: 115px;
+  height: 35px;
+  background: #11141c 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  color: white;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.filter-btn {
+  display: flex;
+  margin-top: 30px;
+}
+
+/* checkbox */
+input[type="checkbox"] {
+  /* Hide the default checkbox */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* the size and position of the custom checkbox */
+  width: 10px;
+  height: 10px;
+  border: 2px solid rgb(207, 207, 206); /* Set border color to orange */
+
+  /* custom checkbox checked state */
+  &:checked {
+    background-color: orange; /* Set background color to orange when checked */
+    color: white;
+  }
+  /* Style the checkmark inside the custom checkbox */
+  &:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 5px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    opacity: 0;
+  }
+  /* Define custom checkbox checked state */
+  &:checked:after {
+    opacity: 1;
+  }
+}
+
+.selected-options {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.selected-option {
+  background-color: orange;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.selected-option:hover {
+  background-color: darkorange;
 }

@@ -1,13 +1,12 @@
 .records-container {
-  /* border: 2px solid yellow; */
   margin: 20px 20px 0 20px;
   top: 60px;
   left: 324px;
-  width: 990px;
+  width: 995px;
+  height: 630px;
   background: hsl(0, 0%, 100%) 0% 0% no-repeat padding-box;
   opacity: 1;
-  height: 678px;
- 
+  
   display: flex;
   flex-direction: column;
 

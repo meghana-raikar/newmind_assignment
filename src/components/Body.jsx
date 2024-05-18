@@ -2,6 +2,7 @@ import React from 'react'
 import  './body.css'
 import Navigation from "../pages/Navigation";
 import Records from '../pages/Records';
+import Footer from '../pages/Footer';
 
 const Body = () => {
   return (
@@ -9,6 +10,7 @@ const Body = () => {
       <div className="body-container">
         <Navigation />
         <Records />
+        <Footer />
       </div>
 
     </>

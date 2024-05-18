@@ -112,13 +112,13 @@ const Collections = () => {
             <div className="accordion-text">Mufti Collection</div>
             {openIndices.includes(1) ? (
               <img
-                src="/images/up-arrow.svg" // Change this to the path of your SVG image
+                src="/images/up-arrow.svg" 
                 alt="Up Arrow"
                 className="arrow"
               />
             ) : (
               <img
-                src="/images/down-arrow.svg" // Change this to the path of your SVG image
+                src="/images/down-arrow.svg" 
                 alt="Down Arrow"
                 className="arrow"
               />

@@ -24,8 +24,8 @@ const Records = () => {
             placeholder="Write something about the template you want to find"
           />
           {isFilterVisible && <Filter />}
-          <span className="filter">
-            <img src="/images/filter.svg" alt="" onClick={toggleFilter} />
+          <span className="filter" onClick={toggleFilter}>
+            <img src="/images/filter.svg" alt="" />
           </span>
         </div>
         <div className="record-found">
